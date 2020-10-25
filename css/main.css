@@ -65,6 +65,23 @@ body {
   padding-bottom: 94px;
 }
 
+.ourteam .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.header-portfolio .container {
+  display: flex;
+  align-items: center;
+}
+
+.container .work {
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
 .logo {
   margin-right: 93px;
   font-family: Raleway, normal, sans-serif;
@@ -559,13 +576,21 @@ body {
   height: 294px;
 }
 
-.ourteam .container {
-  padding-top: 94px;
-  padding-bottom: 94px;
+.team-items {
+  background-color: #ffffff;
+}
+
+.team-items {
+  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 4px 4px;
 }
 
 .team-items:not(:last-child) {
   margin-right: 30px;
+}
+
+.team-list {
+  display: flex;
 }
 
 .team-list-content {
@@ -574,23 +599,6 @@ body {
   padding-bottom: 30px;
   padding-left: 32px;
   padding-right: 32px;
-}
-
-.team-items {
-  box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
-  border-radius: 0px 0px 4px 4px;
-}
-
-.team-list {
-  display: flex;
-}
-
-.team-items {
-  background-color: #ffffff;
-}
-
-.ourteam {
-  background-color: #f5f4fa;
 }
 
 .team-title {
@@ -621,6 +629,17 @@ body {
   color: #757575;
 }
 
+.team-social-list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-social-svg {
+  width: 20px;
+  height: 20px;
+  fill: currentColor;
+}
+
 .team-social-link {
   display: flex;
   align-items: center;
@@ -633,15 +652,9 @@ body {
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.team-social-list {
-  display: flex;
-  justify-content: space-between;
-}
-
-.team-social-svg {
-  width: 20px;
-  height: 20px;
-  fill: currentColor;
+.team-social-link:hover, .team-social-link:focus {
+  background-color: #2196f3;
+  color: #ffffff;
 }
 
 .team-social-item {
@@ -649,10 +662,8 @@ body {
   align-items: center;
 }
 
-.team-social-link:hover,
-.team-social-link:focus {
-  background-color: #2196f3;
-  color: #ffffff;
+.ourteam {
+  background-color: #f5f4fa;
 }
 
 .clients-title {

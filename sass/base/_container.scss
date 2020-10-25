@@ -29,4 +29,14 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  .header-portfolio & {
+    display: flex;
+    align-items: center;
+  }
+  & .work {
+    display: flex;
+    flex-wrap: wrap;
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
