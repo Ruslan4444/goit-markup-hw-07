@@ -3,4 +3,30 @@
   padding-left: 15px;
   padding-right: 15px;
   margin: auto;
+
+  .clients & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+    text-align: center;
+  }
+  .features & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  .footer & {
+    display: flex;
+    align-items: baseline;
+    justify-items: center;
+  }
+  .header & {
+    display: flex;
+    align-items: center;
+  }
+  .specialization & {
+    padding-bottom: 94px;
+  }
+  .ourteam & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
 }
