@@ -11,12 +11,12 @@
   line-height: 1, 147;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .clients-list {
   display: flex;
   align-items: center;
-  color: var(--icon-color);
+  color: $icon-color;
 }
 .clients-list-item {
   display: flex;
@@ -28,7 +28,7 @@
 .clients-link {
   width: 170px;
   height: 90px;
-  color: var(--icon-color);
+  color: $icon-color;
   align-items: center;
   justify-items: center;
   border: 1px solid currentColor;
@@ -42,6 +42,6 @@
 }
 .clients-link:hover,
 .clients-link:focus {
-  color: var(--accent-color);
-  border: 1px solid var(--accent-color);
+  color: $accent-color;
+  border: 1px solid $accent-color;
 }

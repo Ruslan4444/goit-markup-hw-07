@@ -9,7 +9,7 @@
   margin-right: 30px;
 } */
 .specialization {
-  background-color: var(--main-background-color);
+  background-color: $main-background-color;
 }
 .specialization-title {
   margin-bottom: 50px;
@@ -19,7 +19,7 @@
   line-height: 1.167;
   text-align: center;
   letter-spacing: 0.03em;
-  color: var(--title-text-color);
+  color: $title-text-color;
 }
 .specialization-thumb {
   display: flex;
@@ -41,7 +41,7 @@
   text-align: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--specialization-thumb-name-color);
+  color: $specialization-thumb-name-color;
 }
 .specialization-thumb-item {
   position: relative;

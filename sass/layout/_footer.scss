@@ -2,7 +2,7 @@
   padding-top: 60px;
   padding-bottom: 60px;
 
-  background-color: var(--footer-background-color);
+  background-color: $footer-background-color;
 }
 .adress-links {
   display: flex;
@@ -22,7 +22,7 @@
   line-height: 1, 143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--social-title);
+  color: $social-title;
 }
 .footer-contacts,
 .social-contacts {
@@ -46,11 +46,11 @@
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .footer-contacts-svg {
-  fill: var(--background-icon-color);
+  fill: $background-icon-color;
 }
 .footer-social-link:hover,
 .footer-social-link:focus {
-  background-color: var(--accent-color);
+  background-color: $accent-color;
 }
 .adress {
   margin-top: 20px;
@@ -68,20 +68,20 @@
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: var(--adress-text-color);
+  color: $adress-text-color;
 
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .adress-item {
-  color: var(--adress-item-color);
+  color: $adress-item-color;
 }
 .adress-map:hover,
 .adress-map:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .adress-item:hover,
 .adress-item:focus {
-  color: var(--accent-color);
+  color: $accent-color;
 }
 .footer-subscribe {
   display: block;
