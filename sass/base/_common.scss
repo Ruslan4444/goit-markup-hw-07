@@ -1,0 +1,18 @@
+*,
+*::before,
+*::after {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: var(--main-font);
+}
+.adress {
+  font-style: normal;
+}
+.list {
+  list-style: none;
+}
+.link {
+  text-decoration: none;
+}
