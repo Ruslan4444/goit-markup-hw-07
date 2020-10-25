@@ -82,6 +82,16 @@ body {
   padding-bottom: 94px;
 }
 
+.works .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.container .work {
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .logo {
   margin-right: 93px;
   font-family: Raleway, normal, sans-serif;

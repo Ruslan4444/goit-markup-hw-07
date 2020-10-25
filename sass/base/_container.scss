@@ -39,4 +39,12 @@
     padding-top: 94px;
     padding-bottom: 94px;
   }
+  .works & {
+    padding-top: 94px;
+    padding-bottom: 94px;
+  }
+  & .work {
+    display: flex;
+    flex-wrap: wrap;
+  }
 }
