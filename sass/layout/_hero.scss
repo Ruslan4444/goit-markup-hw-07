@@ -4,7 +4,7 @@
   padding-top: 200px;
   padding-bottom: 200px;
   text-align: center;
-  background-color: var(--hero-background-color);
+  background-color: $hero-background-color;
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
@@ -26,7 +26,7 @@
   line-height: 1.36;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--hero-title-color);
+  color: $hero-title-color;
 }
 .hero-button {
   min-width: 200px;
