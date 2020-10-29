@@ -1,14 +1,3 @@
-.visually-hidden {
-  position: absolute;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0;
-  border: 0;
-  height: 1px;
-  width: 1px;
-  overflow: hidden;
-}
-
 *,
 *::before,
 *::after {
@@ -92,6 +81,17 @@ body {
   flex-wrap: wrap;
 }
 
+.visually-hidden {
+  position: absolute;
+  clip: rect(1px 1px 1px 1px);
+  clip: rect(1px, 1px, 1px, 1px);
+  padding: 0;
+  border: 0;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+}
+
 .logo {
   margin-right: 93px;
   font-family: Raleway, normal, sans-serif;
@@ -107,7 +107,7 @@ body {
 }
 
 .header-logo {
-  color: #000000;
+  color: #212121;
 }
 
 .footer-logo {
@@ -345,7 +345,7 @@ body {
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
   background-color: transparent;
-  color: #ffffff;
+  color: #2196f3;
 }
 
 .subscribe-form-input::placeholder {
@@ -507,7 +507,7 @@ body {
   height: 16px;
   font-weight: 700;
   font-size: 14px;
-  line-height: 1.143;
+  line-height: 1, 143;
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #212121;

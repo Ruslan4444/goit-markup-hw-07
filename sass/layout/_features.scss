@@ -1,5 +1,5 @@
 .features {
-  background-color: $main-background-color;
+  background-color: $white-background-color;
 
   &-list {
     display: flex;
@@ -32,7 +32,7 @@
     line-height: $font-height-title;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $title-text-color;
+    color: $black-text-color;
   }
   &-description {
     width: 270px;

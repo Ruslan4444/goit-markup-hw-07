@@ -13,10 +13,10 @@
     line-height: $font-height-title;
     letter-spacing: 0.03em;
     text-transform: uppercase;
-    color: $title-color;
+    color: $white-text-color;
   }
   &-contacts-svg {
-    fill: $background-icon-color;
+    fill: $white-background-color;
   }
   & .link:not(:last-child) {
     margin-bottom: 9px;
@@ -39,7 +39,7 @@
     letter-spacing: 0.03em;
     text-transform: uppercase;
 
-    color: $title-color;
+    color: $white-text-color;
   }
 
   &-contacts,
@@ -88,7 +88,7 @@
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
-    color: $text-color;
+    color: $white-text-color;
 
     transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   }

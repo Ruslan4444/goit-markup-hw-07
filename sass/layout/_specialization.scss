@@ -1,5 +1,5 @@
 .specialization {
-  background-color: $main-background-color;
+  background-color: $white-background-color;
 
   &-list {
     display: flex;
@@ -13,7 +13,7 @@
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $title-text-color;
+    color: $black-text-color;
   }
   &-thumb {
     display: flex;
@@ -35,7 +35,7 @@
       text-align: center;
       letter-spacing: 0.03em;
       text-transform: uppercase;
-      color: $specialization-thumb-name-color;
+      color: $white-text-color;
     }
 
     &-item {

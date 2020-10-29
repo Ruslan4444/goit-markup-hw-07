@@ -1,6 +1,6 @@
 .team {
   &-items {
-    background-color: $team-items-background-color;
+    background-color: $white-background-color;
     & {
       box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12),
         0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
@@ -29,7 +29,7 @@
     line-height: 1.167;
     text-align: center;
     letter-spacing: 0.03em;
-    color: $title-text-color;
+    color: $black-text-color;
   }
   &-member {
     margin-bottom: 10px;
@@ -38,7 +38,7 @@
     font-size: 16px;
     line-height: 1.188;
     letter-spacing: 0.03em;
-    color: $team-member-color;
+    color: $black-text-color;
   }
   &-position {
     margin-bottom: 16px;
@@ -64,7 +64,7 @@
     justify-content: center;
     width: 44px;
     height: 44px;
-    background-color: $background-icon-color;
+    background-color: $white-background-color;
     border-radius: 50%;
     color: $icon-color;
 
@@ -74,7 +74,7 @@
     &:hover,
     &:focus {
       background-color: $accent-color;
-      color: $background-icon-color;
+      color: $white-background-color;
     }
   }
   &-social-item {
