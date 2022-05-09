@@ -185,7 +185,7 @@ img {
   margin-right: 10px;
 }
 /* ----------- HERO ------------*/
-.hero-btn {
+.hero__btn {
   display: inline-block;
   min-width: 200px;
   border-radius: 4px;
@@ -211,7 +211,7 @@ img {
   background-position: center;
   background-size: cover;
 }
-.hero-title {
+.hero__title {
   display: block;
   width: 696px;
   margin-bottom: 30px;
