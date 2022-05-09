@@ -379,7 +379,7 @@ img {
 .clients {
   background-color: var(--primary-bg-color);
 }
-.clients-title {
+.clients__title {
   margin-bottom: 50px;
   text-align: center;
 
@@ -389,13 +389,13 @@ img {
   line-height: 1.17;
   text-align: center;
 }
-.clients-item:not(:last-child) {
-  margin-right: 30px;
-}
 .clients-list {
   display: flex;
 }
-.clients-link {
+.clients-list__item:not(:last-child) {
+  margin-right: 30px;
+}
+.clients-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -409,8 +409,8 @@ img {
   transition: border-color 250ms var(--timing-function),
     fill 250ms var(--timing-function);
 }
-.clients-link:hover,
-.clients-link:focus {
+.clients-list__link:hover,
+.clients-list__link:focus {
   border-color: var(--accent-color);
   fill: var(--accent-color);
 }
