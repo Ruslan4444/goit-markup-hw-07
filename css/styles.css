@@ -266,16 +266,16 @@ img {
 .work-list {
   display: flex;
 }
-.work-list-item {
+.work-list__item {
   flex-basis: calc(100% / 3);
 }
-.work-list-item:not(:last-child) {
+.work-list__item:not(:last-child) {
   margin-right: 30px;
 }
-.work-item-thumb {
+.work-list__thumb {
   position: relative;
 }
-.work-thumb-text {
+.work-list__text {
   position: absolute;
   bottom: 0;
 
