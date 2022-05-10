@@ -454,10 +454,10 @@ img {
   margin-left: 70px;
   margin-right: 93px;
 }
-.join__list {
+.join-list {
   display: flex;
 }
-.join__item:not(:last-child) {
+.join-list__item:not(:last-child) {
   margin-right: 10px;
 }
 .join__title,
@@ -470,7 +470,7 @@ img {
   line-height: 1.14;
   text-transform: uppercase;
 }
-.join__link {
+.join-list__link {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -483,8 +483,8 @@ img {
 
   transition: background-color 250ms var(--timing-function);
 }
-.join__link:hover,
-.join__link:focus {
+.join-list__link:hover,
+.join-list__link:focus {
   background-color: var(--accent-color);
 }
 .subscribe {
