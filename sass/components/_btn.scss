@@ -1,0 +1,18 @@
+.btn {
+  border: 0;
+  font-family: inherit;
+  background-color: var(--accent-color);
+  color: var(--primary-color);
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+
+  cursor: pointer;
+  transition: background-color 250ms var(--timing-function);
+}
+.btn:hover,
+.btn:focus {
+  background-color: var(--btn-hover-bgcolor);
+}
