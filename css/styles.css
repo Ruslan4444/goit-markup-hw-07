@@ -519,7 +519,7 @@ img {
 }
 
 /* ----------- PORTFOLIO ------------*/
-.filter__btn {
+.gallery-filter__btn {
   display: inline-block;
   padding: 6px 22px;
   border-radius: 4px;
@@ -536,11 +536,11 @@ img {
     background-color 250ms var(--timing-function),
     box-shadow 250ms var(--timing-function);
 }
-.filter__item:not(:last-child) {
+.gallery-filter__item:not(:last-child) {
   margin-right: 8px;
 }
-.filter__btn:hover,
-.filter__btn:focus {
+.gallery-filter__btn:hover,
+.gallery-filter__btn:focus {
   background-color: var(--accent-color);
   color: var(--primary-color);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
@@ -550,7 +550,7 @@ img {
   background-color: var(--accent-color);
   color: var(--primary-color);
 }
-.filter {
+.gallery-filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
