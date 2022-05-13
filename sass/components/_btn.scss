@@ -11,8 +11,8 @@
 
   cursor: pointer;
   transition: background-color 250ms var(--timing-function);
-}
-.btn:hover,
-.btn:focus {
-  background-color: var(--btn-hover-bgcolor);
+  &:hover,
+  &:focus {
+    background-color: var(--btn-hover-bgcolor);
+  }
 }
