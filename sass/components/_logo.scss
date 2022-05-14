@@ -3,18 +3,18 @@
   padding-top: 24px;
   padding-bottom: 25px;
 
-  font-family: 'Raleway', sans-serif;
+  font-family: Raleway, sans-serif;
   color: #000000;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
 
-  transition: color 250ms var(--timing-function);
-  &__text {
-    color: var(--accent-color);
-  }
+  transition: color 250ms $timing-function;
   &:hover,
   &:focus {
-    color: var(--accent-color);
+    color: $accent-color;
   }
+}
+.logo__text {
+  color: $accent-color;
 }

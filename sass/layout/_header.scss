@@ -1,30 +1,36 @@
 .header {
-  border-bottom: 1px solid var(--header-border-color);
-  &__container {
-    display: flex;
-    align-items: center;
-  }
+  border-bottom: 1px solid $header-border-color;
 }
-
+.header__container {
+  display: flex;
+  align-items: center;
+}
 .nav {
   margin-left: 93px;
-  &__list {
-    display: flex;
-  }
-  &__item:not(:last-child) {
-    margin-right: 50px;
-  }
-  &__link {
-    position: relative;
+}
+.nav__list {
+  display: flex;
+}
+.nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.nav__link {
+  position: relative;
 
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    color: var(--tittle-text-color);
+  display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $tittle-text-color;
 
-    transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
-  &__link.current::after {
+}
+.nav__link.current {
+  color: $accent-color;
+  &::after {
     position: absolute;
 
     content: '';
@@ -33,40 +39,32 @@
     height: 4px;
     bottom: 0;
 
-    background-color: var(--accent-color);
+    background-color: $accent-color;
     border-radius: 2px;
   }
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
-  }
-  &__link.current {
-    color: var(--accent-color);
-  }
 }
-
 /* ----------- contacts-list ------------*/
 .contacts {
   display: flex;
   margin-left: auto;
-  &__item:not(:last-child) {
-    margin-right: 50px;
-  }
-  &__link {
-    display: flex;
-    align-items: center;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    color: var(--primary-text-color);
+}
+.contacts__item:not(:last-child) {
+  margin-right: 50px;
+}
+.contacts__link {
+  display: flex;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
 
-    transition: color 250ms var(--timing-function);
+  transition: color 250ms $timing-function;
+  &:hover,
+  &:focus {
+    color: $accent-color;
   }
-  &__link:hover,
-  &__link:focus {
-    color: var(--accent-color);
-  }
-  &__icon {
-    fill: currentColor;
-    margin-right: 10px;
-  }
+}
+.contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
 }

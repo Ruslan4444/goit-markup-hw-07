@@ -1,12 +1,14 @@
 @import './utils/variables';
-@import './utils/common';
-@import './utils/reset';
 @import './utils/hidden';
+@import './base/common';
+@import './base/reset';
 
 @import './components/container';
 @import './components/section';
 @import './components/btn';
 @import './components/logo';
+@import './components/join-us';
+@import './components/subscribe-form';
 @import './components/backdrop';
 @import './components/modal';
 @import './components/modal-form';

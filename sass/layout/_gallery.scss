@@ -1,35 +1,34 @@
-.btn--active {
-  background-color: var(--accent-color);
-  color: var(--primary-color);
+.gallery-filter__btn.current {
+  background-color: $accent-color;
+  color: $primary-color;
 }
 .gallery-filter {
   display: flex;
   justify-content: center;
   margin-bottom: 50px;
-  &__btn {
-    display: inline-block;
-    padding: 6px 22px;
-    border-radius: 4px;
+}
+.gallery-filter__item:not(:last-child) {
+  margin-right: 8px;
+}
+.gallery-filter__btn {
+  display: inline-block;
+  padding: 6px 22px;
+  border-radius: 4px;
 
-    background-color: var(--gallery-filter-bg-color);
-    color: var(--tittle-text-color);
-    font-weight: 500;
-    line-height: 1.62;
-    letter-spacing: 0.03em;
+  background-color: $gallery-filter-bg-color;
+  color: $tittle-text-color;
+  font-weight: 500;
+  line-height: 1.62;
+  letter-spacing: 0.03em;
 
-    border: none;
+  border: none;
 
-    transition: color 250ms var(--timing-function),
-      background-color 250ms var(--timing-function),
-      box-shadow 250ms var(--timing-function);
-  }
-  &__item:not(:last-child) {
-    margin-right: 8px;
-  }
-  &__btn:hover,
-  &__btn:focus {
-    background-color: var(--accent-color);
-    color: var(--primary-color);
+  transition: color 250ms $timing-function,
+    background-color 250ms $timing-function, box-shadow 250ms $timing-function;
+  &:hover,
+  &:focus {
+    background-color: $accent-color;
+    color: $primary-color;
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
       0px 2px 2px rgba(0, 0, 0, 0.12);
   }
@@ -39,63 +38,64 @@
   flex-wrap: wrap;
   margin-top: -30px;
   margin-left: -30px;
-  &__item {
-    flex-basis: calc(100% / 3 - 30px);
-    margin-top: 30px;
-    margin-left: 30px;
+}
+.gallery-list__item {
+  flex-basis: calc(100% / 3 - 30px);
+  margin-top: 30px;
+  margin-left: 30px;
 
-    transition: box-shadow 250ms var(--timing-function);
-  }
-  &__item:hover,
-  &__item:focus {
+  transition: box-shadow 250ms $timing-function;
+  &:hover,
+  &:focus {
     box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
       1px 4px 6px rgba(0, 0, 0, 0.16);
   }
 }
+
 .gallery-contant {
   padding: 20px 24px;
 
-  border-left: 1px solid var(--gallery-item-border-color);
-  border-right: 1px solid var(--gallery-item-border-color);
-  border-bottom: 1px solid var(--gallery-item-border-color);
-  &__title {
-    margin-bottom: 4px;
+  border-left: 1px solid $gallery-item-border-color;
+  border-right: 1px solid $gallery-item-border-color;
+  border-bottom: 1px solid $gallery-item-border-color;
+}
+.gallery-contant__title {
+  margin-bottom: 4px;
 
-    color: var(--tittle-text-color);
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 2;
-    letter-spacing: 0.06em;
-  }
-  &__text {
-    color: var(--primary-text-color);
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 1.88;
-  }
+  color: $tittle-text-color;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.gallery-contant__text {
+  color: $primary-text-color;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.88;
 }
 
 .gallery-thumb {
   position: relative;
   overflow: hidden;
-  &__text {
-    position: absolute;
-    display: block;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    padding: 63px 24px;
+}
+.gallery-thumb__text {
+  position: absolute;
+  display: block;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  padding: 63px 24px;
 
-    font-size: 18px;
-    line-height: 1.56;
-    color: var(--primary-color);
-    background-color: var(--accent-color);
+  font-size: 18px;
+  line-height: 1.56;
+  color: $primary-color;
+  background-color: $accent-color;
 
-    transform: translateY(100%);
-    transition: transform 250ms var(--timing-function);
-  }
-  .gallery-list__item:hover &__text {
+  transform: translateY(100%);
+  transition: transform 250ms $timing-function;
+  .gallery-list__item:hover & {
     transform: translateY(0);
   }
 }
