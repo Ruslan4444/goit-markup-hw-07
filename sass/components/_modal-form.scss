@@ -28,9 +28,7 @@
   width: 100%;
   margin-bottom: 4px;
 
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.01em;
+  @include font(null, 12px, 1.17, 0.01em);
 
   color: $primary-text-color;
 }
@@ -48,9 +46,7 @@
     border: 1px solid $accent-color;
   }
   &_::placeholder {
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.01em;
+    @include font(null, 12px, 1.17, 0.01em);
 
     color: rgba(117, 117, 117, 0.5);
   }
@@ -72,16 +68,14 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+
+  @include font(null, 14px, 1.71);
+
   align-items: center;
 }
 .privacy__link {
-  font-weight: 400;
-  font-size: 14px;
-  line-height: 1.71;
-  letter-spacing: 0.03em;
+  @include font(400, 14px, 1.71);
+
   text-decoration-line: underline;
   color: $accent-color;
 }

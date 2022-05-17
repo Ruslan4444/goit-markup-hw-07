@@ -3,9 +3,7 @@
 }
 .subscribe-form__title {
   color: $primary-color;
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
   text-transform: uppercase;
 
   margin-bottom: 20px;
@@ -28,8 +26,8 @@
   padding: 15px 16px;
   margin-right: 12px;
 
-  font-size: 16px;
-  line-height: 1.25;
+  @include font(null, 16px, 1.25);
+
   color: rgba(255, 255, 255, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.3);
   border-radius: 4px;

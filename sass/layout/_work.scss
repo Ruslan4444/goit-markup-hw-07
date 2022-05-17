@@ -6,9 +6,7 @@
   text-align: center;
 
   color: $tittle-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(700, 36px, 1.17);
 }
 
 .work-list {
@@ -32,9 +30,8 @@
   height: 70px;
   padding: 27px 0;
 
-  font-weight: 700;
-  font-size: 14px;
-  line-height: 1.14;
+  @include font(700, 14px, 1.14);
+
   text-align: center;
   text-transform: uppercase;
   color: $primary-color;

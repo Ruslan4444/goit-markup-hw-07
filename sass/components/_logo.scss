@@ -5,9 +5,8 @@
 
   font-family: Raleway, sans-serif;
   color: #000000;
-  font-weight: 700;
-  font-size: 26px;
-  line-height: 1.19;
+
+  @include font(700, 26px, 1.19);
 
   transition: color 250ms $timing-function;
   &:hover,

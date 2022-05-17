@@ -17,9 +17,7 @@
 
   background-color: $gallery-filter-bg-color;
   color: $tittle-text-color;
-  font-weight: 500;
-  line-height: 1.62;
-  letter-spacing: 0.03em;
+  @include font(500, 16px, 1.62);
 
   border: none;
 
@@ -63,16 +61,11 @@
   margin-bottom: 4px;
 
   color: $tittle-text-color;
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
+  @include font(700, 18px, 2, 0.06em);
 }
 .gallery-contant__text {
   color: $primary-text-color;
-  font-weight: 400;
-  font-size: 16px;
-  line-height: 1.88;
+  @include font(400, 16px, 1.88);
 }
 
 .gallery-thumb {
@@ -88,8 +81,8 @@
   height: 100%;
   padding: 63px 24px;
 
-  font-size: 18px;
-  line-height: 1.56;
+  @include font(null, 18px, 1.56);
+
   color: $primary-color;
   background-color: $accent-color;
 

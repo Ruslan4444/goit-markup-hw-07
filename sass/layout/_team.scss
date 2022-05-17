@@ -6,9 +6,7 @@
   text-align: center;
 
   color: $tittle-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(700, 36px, 1.17);
 }
 .team-list {
   display: flex;
@@ -32,15 +30,13 @@
   text-align: center;
 
   color: $tittle-text-color;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.19;
+  @include font(500, 16px, 1.19);
 }
 .team-list__text {
   margin-bottom: 16px;
 
-  font-size: 16px;
-  line-height: 1.17;
+  @include font(null, 16px, 1.17);
+
   text-align: center;
 }
 .social-list {

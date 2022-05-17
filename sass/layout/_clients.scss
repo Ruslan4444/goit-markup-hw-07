@@ -3,12 +3,10 @@
 }
 .clients__title {
   margin-bottom: 50px;
-  text-align: center;
 
   color: $tittle-text-color;
-  font-weight: 700;
-  font-size: 36px;
-  line-height: 1.17;
+  @include font(700, 36px, 1.17);
+
   text-align: center;
 }
 
